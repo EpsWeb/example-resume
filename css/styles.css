@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    /* font-family: 'Roboto', sans-serif;
+    line-height: 20px; */
+    /* text-decoration: line-through; */
+    /* letter-spacing: 1px; */
+    /* word-spacing: 10px; */
+    font: normal 16px 'Roboto', sans-serif;
+    color: #0f141e;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 5px 10px;
+}
+
+.bg-green {
+    border: 2px solid rgb(89,207,100);
+    background-color: rgba(89,207,100, 0.3);
+}
+
+.bg-red {
+    border: 2px solid rgb(237,70,72);
+    background-color: rgba(237,70,72, 0.3);
+}
+
+.bg-yellow {
+    border: 2px solid rgb(241,200,41);
+    background-color: rgba(241,200,41, 0.3);
+}
+
+.btn {
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.btn:active {
+    opacity: 0.8;
+    background-color: #333;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:visited {
+    background-color: crimson;
+}
+
+.links a {
+    text-decoration: none;
+    color: blueviolet;
+    transition: all .2s;
+}
+
+.links a:active {
+    opacity: 0.8;
+    color: #333;
+}
+
+.links a:hover {
+    opacity: 0.8;
+}
+
+.links a:visited {
+    background-color: crimson;
+}
+
+.hobbies ol li:nth-child(3) span {
+    background-color: pink;
+    padding: 3px 5px;
+}
+
+#avatar {
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 300px;
+}
+
+@media screen and (max-width: 650px) {
+    #avatar {
+        margin: auto;
+        display: block;
+    }
+
+    h1, p, .links {
+        text-align: center;
+    }
+}
